@@ -1,0 +1,15 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dl5w3kgd0pi8t"]
+
+[ext_resource type="FontFile" uid="uid://dlnucltqpxno6" path="res://Cyberverse.otf" id="1_ovtlk"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qlsuv"]
+draw_center = false
+border_width_top = 1
+border_width_bottom = 1
+
+[resource]
+Button/fonts/font = ExtResource("1_ovtlk")
+Label/colors/font_color = Color(1, 1, 1, 0.721569)
+Label/fonts/font = ExtResource("1_ovtlk")
+LogLabel/base_type = &"Label"
+LogLabel/styles/normal = SubResource("StyleBoxFlat_qlsuv")
